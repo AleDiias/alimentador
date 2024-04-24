@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Alimentador VONIX - API</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <section class="container">
+            <p>
+                <img src="https://vonix.vonixcc.com.br/img/Vonix.d71e0d0f.png" alt="Vonix Logo" class="logo">
+                <input type="file" id="csvFile" accept=".csv" class="file-input">
+                <div class="inputs">
+                    <label for="priority">Priority:</label>
+                    <input type="text" id="priority">
+                    <label for="retry">Retry:</label>
+                    <input type="text" id="retry">
+                    <label for="schedule_at">Schedule_at:</label>
+                    <input type="text" id="schedule_at">
+                    <label for="customer">Cliente:</label>
+                    <input type="text" id="customer">
+                    <label for="queueId">Fila:</label>
+                    <input type="text" id="queueId">
+                    <label for="token">Token CRM:</label>
+                    <input type="text" id="token">
+                </div>
+                <div class="button-container">
+                    <button class="button-22" onclick="convertToJson()">Converter para JSON</button>
+                    <button class="button-22" onclick="postData()">POST - API VONIX</button>
+                </div>
+            </p>
+        </section>
+
+        <footer class="footer"> 
+            <p>Copyright © Alexandre Dias - 2024</p>
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
