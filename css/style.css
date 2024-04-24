@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+}
+
+.logo {
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    width: 100px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px;
+    margin-top: 70px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-input {
+    position: relative;
+    right: 40px;
+    margin-top: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.inputs label {
+    margin-bottom: 5px;
+}
+
+.inputs input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1em;
+    position: absolute;
+    bottom: 10px;
+    right: 700px;
+    color: #FFF;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button-22 {
+    background-color: #0950a2;
+    border-radius: 8px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "RM Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: background .13s ease-in-out;
+}
+
+.button-22:active {
+    background-color: #006AE8;
+}
+
+.button-22:hover {
+    background-color: #1C84FF;
+}
